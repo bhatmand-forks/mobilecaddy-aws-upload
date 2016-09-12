@@ -22,10 +22,8 @@
               if(file.size>0){console.log("scope.file", file);
                console.log("event", 'Yup');
                 scope.file = file;
-                // scope.$parent.file = file;
               } else {
                 scope.file = {};
-                // scope.$parent.file = {};
               }
               scope.$apply();
             });

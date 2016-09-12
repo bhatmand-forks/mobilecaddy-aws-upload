@@ -1,8 +1,8 @@
-# MobileCaddy Shell Side Menu App
+# MobileCaddy AWS Asset Upload
 
 ## Overview
 
-This is the basic side menu shell application built with [Angular JS](https://angularjs.org/) and the [Ionic Framework](http://ionicframework.com). The idea of the MobileCaddy shell applications are to give developers a barebones starting block in getting building hybrid mobile applications with MobileCaddy.
+This is the basic side menu shell application built with [MobileCaddy](https://mobilecaddy.net/) that show use of the [image-uploader project](https://github.com/sbolel/image-uploader/).
 
 ## Getting Started
 
