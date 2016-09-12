@@ -94,7 +94,9 @@ angular.module('starter', ['ionic', 'ngIOS9UIWebViewPatch', 'starter.services', 
       url: '/home',
       views: {
         'menuContent': {
-          templateUrl: RESOURCE_ROOT + 'templates/home.html'
+          templateUrl: RESOURCE_ROOT + 'templates/home.html',
+          controller: 'HomeCtrl',
+          controllerAs: 'vm'
         }
       }
     })

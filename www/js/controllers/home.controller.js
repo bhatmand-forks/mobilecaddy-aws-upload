@@ -14,7 +14,8 @@
 
   function HomeCtrl($scope) {
   	var imageUploader = new ImageUploader();
-  	$scope.file = {};
+    var vm = this;
+    vm.file = {};
 
     $scope.captureAudio = function() {
       // capture callback
@@ -77,9 +78,9 @@
 
 
 	  $scope.upload = function() {
-      console.log('File upload', $scope.file);
-	    imageUploader.push($scope.file).then(function(data){
-	      console.log('File uploaded Successfully', $scope.file, data);
+      console.log('File upload', vm.file);
+	    imageUploader.push(vm.file).then(function(data){
+	      console.log('File uploaded Successfully', vm.file, data);
 	      // $scope.uploadUri = data.url;
 	      // $scope.$digest();
 	    }).catch(function(e){

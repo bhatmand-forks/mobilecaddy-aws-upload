@@ -4,7 +4,8 @@
       <mc-sync-spinner></mc-sync-spinner>
   </ion-nav-buttons>
 
-	<ion-content padding="true" ng-controller="HomeCtrl">
+	<ion-content padding="true">
+  <!--<ion-content padding="true" ng-controller="HomeCtrl">-->
 
     <div class="list card">
 
@@ -27,7 +28,7 @@
         Capture Video
       </a>
 
-      <input class="bottom-marg-15" type="file" name="file" file="file">
+      <input class="bottom-marg-15" type="file" name="file" file="vm.file">
       <button class="button button-small button-full button-positive" ng-disabled="file.size&amp;&amp;false || uploadProgress&gt;0" ng-click="upload()" ng-cloak="">Upload</button>
 		  <a ng-href="{{uploadUri}}" ng-bind="uploadUri"></a>
 
