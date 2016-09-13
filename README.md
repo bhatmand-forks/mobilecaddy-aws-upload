@@ -233,3 +233,7 @@ Again, based on us using `controllerAs` syntax, and our controller already defin
       });
     };
 ```
+
+### Set your AWS Account Details
+
+In the *www/lib/js/image-uploader.js* file add your `accessKeyId` and `region` and `secretAccessKey` details that match your AWS account.
